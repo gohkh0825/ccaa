@@ -15,10 +15,10 @@ if [ $1 = 'cdn' ]
 	master_url='https://github.com/helloxz/ccaa/archive/master.zip'
 	ccaa_web_url='http://soft.xiaoz.top/linux/ccaa_web.tar.gz'
 	else
-	aria2_url='http://m3u-txt.gohkh9.eu.org/111/aria2-1.36.0-linux-gnu-64bit-build1.tar.bz2'
-	filebrowser_url='http://m3u-txt.gohkh9.eu.org/111/linux-amd64-filebrowser.tar.gz'
-	master_url='http://m3u-txt.gohkh9.eu.org/111/master.zip'
-	ccaa_web_url='http://m3u-txt.gohkh9.eu.org/111/ccaa_web.tar.gz'
+	aria2_url='http://192.168.50.11:6789/111/aria2-1.36.0-linux-gnu-64bit-build1.tar.bz2'
+	filebrowser_url='http://192.168.50.11:6789/111/linux-amd64-filebrowser.tar.gz'
+	master_url='http://192.168.50.11:6789/111/master.zip'
+	ccaa_web_url='http://192.168.50.11:6789/111/ccaa_web.tar.gz'
 fi
 
 #安装前的检查
